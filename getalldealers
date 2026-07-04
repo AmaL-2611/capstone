@@ -1,0 +1,18 @@
+curl http://127.0.0.1:8000/api/dealers/
+
+[
+  {
+    "id": 1,
+    "name": "Sunrise Auto Sales",
+    "state": "Kansas",
+    "city": "Wichita",
+    "address": "123 Main St"
+  },
+  {
+    "id": 2,
+    "name": "Oakland Motors",
+    "state": "California",
+    "city": "Oakland",
+    "address": "456 Elm St"
+  }
+]

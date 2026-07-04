@@ -1,0 +1,11 @@
+curl http://127.0.0.1:8000/api/dealers/?state=Kansas
+
+[
+  {
+    "id": 1,
+    "name": "Sunrise Auto Sales",
+    "state": "Kansas",
+    "city": "Wichita",
+    "address": "123 Main St"
+  }
+]

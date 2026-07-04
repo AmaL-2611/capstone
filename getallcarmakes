@@ -1,0 +1,12 @@
+curl http://127.0.0.1:8000/api/makes/
+
+[
+  {
+    "make": "Toyota",
+    "models": ["Camry", "Corolla", "RAV4"]
+  },
+  {
+    "make": "Ford",
+    "models": ["Mustang", "F-150", "Explorer"]
+  }
+]

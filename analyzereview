@@ -1,0 +1,7 @@
+curl http://127.0.0.1:8000/api/analyze/?text=Fantastic%20services
+
+{
+  "text": "Fantastic services",
+  "sentiment": "positive",
+  "confidence": 0.92
+}
