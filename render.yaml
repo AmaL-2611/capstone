@@ -1,0 +1,10 @@
+services:
+  - type: web
+    name: capstone-django-dealer-review
+    env: python
+    buildCommand: pip install -r requirements.txt
+    startCommand: gunicorn server.wsgi --log-file -
+    envVars:
+      - key: PORT
+        value: 10000
+        fromService: false
